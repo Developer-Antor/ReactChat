@@ -1,0 +1,18 @@
+.sidebar {
+    background-color: #fff;
+    height: 100%;
+    padding: 2rem;
+    flex: 0.35;
+    border-radius: 50px 0 0 50px;
+    box-shadow: 19px 19px 39px #d9d9d9, -19px -19px 39px #ffffff;
+    overflow-y: scroll;
+}
+
+@media (max-width: 500px) {
+    .sidebar {
+        width: 100%;
+        position: absolute;
+        border-radius: 0px;
+        height: 100vh;
+    }
+}
